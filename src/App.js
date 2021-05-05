@@ -1,10 +1,10 @@
 import './App.css';
-import TitleTemp from './components/TitleTemp';
+import TitleTempo from './components/TitleTemp';
 
 function App() {
   return (
     <div className="App">
-     <TitleTemp/>
+     <TitleTempo/>
     </div>
   );
 }

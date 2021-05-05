@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TitleTemp() {
+function TitleTempo() {
     return (
         <div>
             <h1>ICI SERA ERIGE UN TRES GRAND SITE DE CINEMA</h1>
@@ -9,4 +9,5 @@ function TitleTemp() {
     )
 }
 
-export default TitleTemp
+export default TitleTempo
+
