@@ -1,10 +1,11 @@
 import './App.css';
-import TitleTempo from './components/TitleTemp';
+import Header from './components/Header/Header';
+
 
 function App() {
   return (
     <div className="App">
-     <TitleTempo/>
+     <Header/>
     </div>
   );
 }
