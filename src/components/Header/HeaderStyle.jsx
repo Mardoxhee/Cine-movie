@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 const HeaderStyle = styled.nav`
-  position:fixed;
-  background-color: #FF4444;
+  z-index: 999999;
+  position: fixed;
+  background-color: #ff4444;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   height: 87px;
   width: 100%;
   color: white;

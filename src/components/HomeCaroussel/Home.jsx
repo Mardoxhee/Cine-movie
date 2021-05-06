@@ -2,11 +2,7 @@ import React from "react";
 import Hometyle from "./HomeStyle";
 
 const Home = () => {
-  return (
-    <>
-      <Hometyle></Hometyle>
-    </>
-  );
+  return <Hometyle />;
 };
 
 export default Home;
