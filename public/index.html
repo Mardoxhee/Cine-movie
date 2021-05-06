@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,6 +32,8 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Start WOWSlider.com BODY section -->
+
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -38,6 +44,79 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+
     -->
+    
+
+    <div id="wowslider-container1">
+      <div class="ws_images">
+        <ul>
+          <li>
+            <img
+              src="data1/images/call of duty.jpg"
+              alt="IMG_20210219_102257_879"
+              title="Call of Duty Black Ops"
+              id="wows1_0"
+            />
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="data1/images/girl.jpg"
+                alt="jquery carousel"
+                title="Avengers"
+                id="wows1_1"
+              />
+            </a>
+          </li>
+          <li>
+            <img
+              src="data1/images/firstcaroussel.jpg"
+              alt="FireCar"
+              title="Fire-Car-Burnig"
+              id="wows1_2"
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="ws_bullets">
+        <div>
+          <a href="#" title="IMG_20210219_102257_879">
+            <span>
+              <img
+                src="data1/tooltips/img_20210219_102257_879.jpg"
+                alt="IMG_20210219_102257_879"
+              />
+              1
+            </span>
+          </a>
+          <a href="#" title="IMG_20210219_143000_447">
+            <span>
+              <img
+                src="data1/tooltips/img_20210219_143000_447.jpg"
+                alt="IMG_20210219_143000_447"
+              />
+              2
+            </span>
+          </a>
+          <a href="#" title="IMG_20210219_123344_691">
+            <span>
+              <img
+                src="data1/tooltips/img_20210219_123344_691.jpg"
+                alt="IMG_20210219_123344_691"
+              />
+              3
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="ws_script" style="position:absolute;left:-99%">
+        <a href="http://wowslider.net"></a>
+      </div>
+      <div class="ws_shadow"></div>
+    </div>
+
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
   </body>
 </html>

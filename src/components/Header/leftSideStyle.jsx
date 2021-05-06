@@ -1,8 +1,7 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const LeftSideStyle = styled.div`
-display:flex;
+  display: flex;
+`;
 
-`
-
-export default LeftSideStyle
+export default LeftSideStyle;
