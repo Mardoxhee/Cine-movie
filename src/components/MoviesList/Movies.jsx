@@ -3,16 +3,18 @@ import ListTitle from "./ListTitle";
 import NavigationList from "./MoviesNavigation/NavigationList";
 import MovieStyle from "./MoviesStyle";
 import NavigationItem from "./MoviesNavigation/NavigationItem";
-import Card from "./Card/Card";
+import ListCard from "./ListCard";
+import NextPreviewBtn from "./NextPreviewStyle";
 
 const Movies = () => {
   return (
     <MovieStyle>
-      <ListTitle></ListTitle>
+      <ListTitle />
       <hr />
       <div className="DesignDiv"></div>
       <NavigationList />
-      <Card />
+      <ListCard></ListCard>
+      <NextPreviewBtn />
     </MovieStyle>
   );
 };

@@ -8,6 +8,7 @@ const MovieStyle = styled.section`
   height: auto;
   background-color: #f6f6f6;
   padding: 80px;
+  display: wrap;
 
   & hr {
     height: 3px;
