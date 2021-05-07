@@ -11,6 +11,7 @@ const CardStyle = styled.div`
   background-size: 330px 600px;
   border-radius: 10px;
   margin-left: 10px;
+
   .HoverEffect {
     opacity: 0%;
     height: 343px;

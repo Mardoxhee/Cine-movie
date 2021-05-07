@@ -4,7 +4,9 @@ import NavigationList from "./MoviesNavigation/NavigationList";
 import MovieStyle from "./MoviesStyle";
 import NavigationItem from "./MoviesNavigation/NavigationItem";
 import ListCard from "./ListCard";
-import NextPreviewBtn from "./NextPreviewStyle";
+import BtnGroup from "./MovieBottomNavigation/BtnGroup";
+import TopMovies from "../TopMovies/TopMovies";
+import RecTitle from "../RECOMMANDED/RecTitle";
 
 const Movies = () => {
   return (
@@ -13,8 +15,10 @@ const Movies = () => {
       <hr />
       <div className="DesignDiv"></div>
       <NavigationList />
-      <ListCard></ListCard>
-      <NextPreviewBtn />
+      <ListCard />
+      <BtnGroup></BtnGroup>
+      <TopMovies />
+      <RecTitle />
     </MovieStyle>
   );
 };
