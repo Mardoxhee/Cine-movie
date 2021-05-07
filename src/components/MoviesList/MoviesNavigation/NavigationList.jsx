@@ -3,7 +3,11 @@ import NavigationItem from "./NavigationItem";
 import NavigationListStyled from "./NavigationListStyled";
 
 const NavigationList = () => {
-  return <NavigationListStyled></NavigationListStyled>;
+  return (
+    <NavigationListStyled>
+      <NavigationItem></NavigationItem>
+    </NavigationListStyled>
+  );
 };
 
 export default NavigationList;

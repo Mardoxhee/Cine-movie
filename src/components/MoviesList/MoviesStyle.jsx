@@ -14,7 +14,7 @@ const MovieStyle = styled.section`
     width: 210px;
   }
 
-  & div {
+  & .DesignDiv {
     z-index: 999;
     height: 9px;
     width: 43px;
