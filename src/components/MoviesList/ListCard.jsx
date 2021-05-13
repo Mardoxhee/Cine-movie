@@ -1,31 +1,17 @@
-import React from "react";
-import Card from "./Card/Card";
+import React, { useContext } from "react";
 
 import ListCardStyle from "./ListCardSTyle";
+import { MoviesContext } from "../MoviesContext/MovieContext";
+import Cardd from "./Card/Cardd";
 
 const ListCard = () => {
+  const moviesContext = useContext(MoviesContext);
+
   return (
     <ListCardStyle>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
+      {moviesContext.map((movieItem) => {
+        return <Cardd movieItem={movieItem} />;
+      })}
     </ListCardStyle>
   );
 };
